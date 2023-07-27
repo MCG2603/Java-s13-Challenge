@@ -12,6 +12,13 @@ public class Main
      */
     private static void workWithData ()
     {
+        String[] a={"AHMET","MEHT"};
+ Company co=new Company(12,"MCG",25,a);
+ System.out.println(co.toString());
+ Healthplan he=new Healthplan(26,"MCGSİGORTA",Plan.PARTİALLY);
+ System.out.println(he.toString());
+
+
 
     }
 
