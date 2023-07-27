@@ -8,6 +8,15 @@ public class Employee {
     private String email;
     private String password;
     private String[] healthplans;
+
+    public Employee(int id, String fullName, String email, String password, String[] healthplans) {
+        this.id = id;
+        this.fullName = fullName;
+        this.email = email;
+        this.password = password;
+        this.healthplans = healthplans;
+    }
+
     public int getId() {
         return id;
     }
